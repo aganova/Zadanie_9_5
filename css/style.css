@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+}
+
+.buttons {
+    width: 100%;
+    height: 100vh;
+    background-color: darkslategrey;
+}
+
+.buttons div {
+    width: auto; 
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 40%;
+}
+
+.btn {
+    display: inline-block;    
+    margin: 0 40px;
+    padding: 20px 40px;
+    min-width: 180px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: inherit;
+    border-width: 2px;
+    border-style: solid;
+    background-position: 100% 0;
+    background-size: 350%;
+    transition: 0.7s;
+    outline: 0;
+}
+
+.other {
+    background-position: 0% 100%;
+    background-size: 350%;
+}
+
+.btn--purple {
+    color: #8e44ad;
+    border-color: #8e44ad;
+    background-image: -webkit-linear-gradient(90deg, #8e44ad 50%, transparent 50%); /* Safari 5.1 - 6.0 */
+    background-image: -o-linear-gradient(90deg, #8e44ad 50%, transparent 50%); /* Opera 11.1 - 12.0 */
+    background-image: -moz-linear-gradient(90deg, #8e44ad 50%, transparent 50%); /* Firefox 3.6 do 15 */
+    background-image: linear-gradient(90deg, #8e44ad 50%, transparent 50%); /* standard syntax */
+}
+
+.btn--yellow {
+    color: #f1c40f;
+    border-color: #f1c40f;
+    background-image: -webkit-linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+    background-image: -o-linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+    background-image: -moz-linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+    background-image: linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+}
+
+.btn--blue {
+    color: #3498db;
+    border-color: #3498db;
+    background-image: -webkit-linear-gradient(135deg, #3498db 50%, transparent 50%);
+    background-image: -o-linear-gradient(135deg, #3498db 50%, transparent 50%);
+    background-image: -moz-linear-gradient(135deg, #3498db 50%, transparent 50%);
+    background-image: linear-gradient(135deg, #3498db 50%, transparent 50%);
+}
+
+.btn--red {
+    color: #de182f;
+    border-color: #de182f;
+    background-image: -webkit-linear-gradient(0deg, #de182f 50%, transparent 50%);
+    background-image: -o-linear-gradient(0deg, #de182f 50%, transparent 50%);
+    background-image: -moz-linear-gradient(0deg, #de182f 50%, transparent 50%);
+    background-image: linear-gradient(0deg, #de182f 50%, transparent 50%);
+}
+
+.btn--grey {
+    color: #969696;
+    border-color: #969696;
+    background-position: 0% 100%;
+    background-size: 350%;
+    background-image: -webkit-linear-gradient(225deg, #969696 50%, transparent 50%);
+    background-image: -o-linear-gradient(225deg, #969696 50%, transparent 50%);
+    background-image: -moz-linear-gradient(225deg, #969696 50%, transparent 50%);
+    background-image: linear-gradient(225deg, #969696 50%, transparent 50%);
+}
+
+.btn:hover {
+    background-position: 0 100%;
+    color: white;
+}
+
+.btn--grey:hover {
+    background-position: 100% 0;
+    color: white;
+}
+
+.btn--purple:active {
+    -webkit-box-shadow: 0px 0px 10px 1px rgba(155,73,191,1);
+    -moz-box-shadow: 0px 0px 10px 1px rgba(155,73,191,1);
+    box-shadow: 0px 0px 10px 1px rgba(155,73,191,1);
+}
+
+.btn--yellow:active {
+    -webkit-box-shadow: 0px 0px 10px 1px rgba(189,153,10,1);
+    -moz-box-shadow: 0px 0px 10px 1px rgba(189,153,10,1);
+    box-shadow: 0px 0px 10px 1px rgba(189,153,10,1);
+}
+
+.btn--blue:active {
+    -webkit-box-shadow: 0px 0px 10px 1px rgba(55,160,230,1);
+    -moz-box-shadow: 0px 0px 10px 1px rgba(55,160,230,1);
+    box-shadow: 0px 0px 10px 1px rgba(55,160,230,1);
+}
+
+.btn--red:active {
+    -webkit-box-shadow: 0px 0px 10px 1px rgba(222,60,79,1);
+    -moz-box-shadow: 0px 0px 10px 1px rgba(222,60,79,1);
+    box-shadow: 0px 0px 10px 1px rgba(222,60,79,1);
+}
+
+.btn--grey:active {
+    -webkit-box-shadow: 0px 0px 10px 1px rgba(173,173,173,1);
+    -moz-box-shadow: 0px 0px 10px 1px rgba(173,173,173,1);
+    box-shadow: 0px 0px 10px 1px rgba(173,173,173,1);
+}
