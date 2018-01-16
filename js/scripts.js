@@ -2,6 +2,6 @@ var buttons = document.getElementsByClassName('btn');
 var buttonsLength = buttons.length;
 
 
-for (x = 0; x < buttonsLength; x++) {
-	alert(buttons[x].innerText);
+for (var i = 0; i < buttonsLength; i++) {
+	alert(buttons[i].innerText);
 }	
